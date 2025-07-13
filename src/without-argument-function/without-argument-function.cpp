@@ -1,8 +1,11 @@
 #include "without-argument-function.h"
 
-using namespace without_argument_function;
+namespace without_argument_function
+{
 
-void f()
+void my_function()
 {
 	return;
+}
+
 }
