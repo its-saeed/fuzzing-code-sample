@@ -1,6 +1,8 @@
 #pragma once
 
-namespace without_argument_function
+namespace without_argument_functions
 {
-	void my_function();
+
+void waf_function_1();
+
 }

@@ -1,11 +1,18 @@
 #include "without-argument-function.h"
 
-namespace without_argument_function
+namespace without_argument_functions
 {
 
-void my_function()
+int store(int index, int value)
 {
-	return;
+	int buffer[1];
+    buffer[index] = value;
+	return 0;
+}
+
+void waf_function_1()
+{
+	store(10000, 200);
 }
 
 }
